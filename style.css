@@ -10,7 +10,8 @@ body {
 }
 
 /* navigation menu */
-nav {border-radius: 5%/50%;
+nav {
+  border-radius: 5%/50%;
   background: rgb(33, 103, 224);
   margin: 0 auto;
   margin-bottom: 20px;
