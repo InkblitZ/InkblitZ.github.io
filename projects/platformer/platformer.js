@@ -35,36 +35,43 @@ $(function () {
     //   createPlatform(canvas.width, i, -canvas.width, -1);
     // }
 
-    /////////////////////////////////////////////////
-    //////////ONLY CHANGE BELOW THIS POINT///////////
-    /////////////////////////////////////////////////
-
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-
-
-    
+    createPlatform(30, 600, 80, 30);
+    createPlatform(225, 450, 30, 30);
+    createPlatform(470, 350, 100, 600);
+    createPlatform(650, 500, 80, 30);
+    createPlatform(820, 400, 30, 30);
+    createPlatform(920, 350, 80, 30);
+    createPlatform(750, 200, 80, 30);
+    createPlatform(1000, 150, 80, 30);
+    createPlatform(1150, 225, 80, 30);
+    createPlatform(1300, 200, 30, 600);
+    createPlatform(1320, 200, 40, 30);
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-
-
-
+    createCollectable("diamond", 50, 300, 20, 0.5);
+    createCollectable("steve", 980, 200, 20, 0.5);
+    createCollectable("kennedi", 650, 400, 20, 0.5);
+    createCollectable("max", 1350, 700, 20, 0.5);
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
-
-
-
+    createCannon("left", 425, 750);
+    createCannon("left", 200, 750);
+    createCannon("top", 400, 600);
+    createCannon("top", 735, 800);
+    createCannon("bottom", 1220, 560);
+    createCannon("bottom", 850, 560);
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
