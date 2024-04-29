@@ -57,35 +57,45 @@
 				box.text(newText);
 			}
 
-			//////////////////////////////////////////////////////////////////
-			/////////////////// YOUR CODE BELOW HERE /////////////////////////
-			//////////////////////////////////////////////////////////////////
-			
-			// TODO 2 - Variable declarations 
-			
+       //////////////////////////////////////////////////////////////////
+        /////////////////// YOUR CODE BELOW HERE /////////////////////////
+        //////////////////////////////////////////////////////////////////
 
-			
-			/* 
+        // TODO 2 - Variable declarations
+
+        /* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
 			function update() {
-				
+          var positionX = 0
+          // Frame 1 
+          positionX = 0 + 10;
+          moveBoxTo(positionX);
+          // Frame 2
+          positionX = 10 + 10;
+          moveBoxTo(positionX);
 
-			};
-
-			/* 
+          moveBoxTo(positionX);
+        }
+        
+        /* 
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to
 			the left side of the screen.
 			*/
-			function handleBoxClick() {
-				
-
-
-			};
-		})();
-	</script>
-</body>
+        function handleBoxClick() {
+         var positionX = 0;
+         // Frame 1 
+         positionX = 0 + 10;
+          moveBoxTo(positionX);
+          // Frame 2
+          positionX = 10 + 10;
+          moveBoxTo(positionX);
+        }
+      })();
+    </script>
+  </body>
 </html>
+
